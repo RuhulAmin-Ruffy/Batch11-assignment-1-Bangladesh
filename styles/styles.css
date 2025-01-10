@@ -1,0 +1,54 @@
+/* Bismillah */
+
+
+/* Font */
+.fira-sans-condensed-regular {
+    font-family: "Fira Sans Condensed", serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+    /* font-variation-settings: 
+        "wdth" 100; */
+  }
+
+
+
+
+
+
+/* Shared styles */
+.s-text{
+    color: #0E0E0E;
+    opacity: 80%;
+}
+.t-text{
+    color: #0E0E0E;
+    font-size: 16;
+    opacity: 70%;
+}
+
+
+
+
+
+  /* Navigation Bar Styling */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 160px 0 160px;
+}
+.nav-title{
+    font-weight: bold;
+    font-size: 32px;
+    color: #0E0E0E;
+}
+.signin-btn{
+    background-color: transparent;
+    border-radius: 8px;
+    border-color: #006A50;
+    font-size: 18px;
+    font-weight: 600;
+    color: #006A50;
+    padding: 15px 30px;
+    border: 2px solid #006A50;
+}
