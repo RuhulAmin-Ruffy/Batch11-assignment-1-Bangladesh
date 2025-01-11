@@ -91,7 +91,7 @@ nav{
 
 /* banner styles */
 .banner{
-    height: 560px;
+    /* height: 560px; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -124,21 +124,21 @@ nav{
 
 
 
-/* vision section */
-.vision{
+/* pillars section */
+.pillars{
     margin: var(--section-margin) 0;
 }
-.vision-card-icon{
+.pillars-card-icon{
     height: 64px;
     width: 64px;
     margin-bottom: 24px;
 }
-.card-container{
+.pillars-card-container{
     display: flex;
     gap: 24px;
     justify-content: space-between;
 }
-.card{
+.pillars-card{
     align-content: center;
     padding: 24px 24px 24px 24px;
     background-color: white;
@@ -146,3 +146,84 @@ nav{
     border-radius: 16px;
 }
 
+
+
+/* Vision of the future styles */
+.vision-card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.vision-p{
+    margin-bottom: 24px;
+}
+.vision-cards-1{
+    align-content: center;
+    padding: 32px 32px 32px 32px;
+    background-color: rgba(84, 144, 245, 0.2);
+    border: none;
+    border-radius: 16px;
+}
+.vision-btn-1{
+    background-color: #5490F5;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    padding: 11px 20px;
+}
+
+.vision-cards-2{
+    align-content: center;
+    padding: 32px 32px 32px 32px;
+    background-color: #C6E4D6;
+    border: none;
+    border-radius: 16px;
+}
+
+.vision-btn-2{
+    background-color: #09A15C;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    padding: 11px 20px;
+}
+
+.vision-cards-3{
+    align-content: center;
+    padding: 32px 32px 32px 32px;
+    background-color: #F7EBCF;
+    border: none;
+    border-radius: 16px;
+}
+
+
+.vision-btn-3{
+    background-color: #FFC239;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    padding: 11px 20px;
+}
+
+/* advisor section styles */
+
+.advisor{
+    margin: 32px 0;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    padding: 24px 24px 24px 24px;
+    background-position: 24px 24px;
+    background-color: white;
+    border: 2px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+}
+
+
+
+/* Your Opinion section styles */
