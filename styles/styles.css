@@ -1,4 +1,20 @@
 
+
+:root{
+    /* ---------------------------------margins--------------------------------- */
+    --section-margin: 80px;
+
+
+    /* --------------------------------color schemes---------------------------- */
+    --body-color: #F5F5F5;
+    
+    
+    /* --------------------------------padding---------------------------------- */
+    --body-padding: 160px;
+
+}
+
+
 /* Font */
 .fira-sans-condensed-regular {
     font-family: "Fira Sans Condensed", serif;
@@ -15,8 +31,8 @@
 
 /* Shared styles */
 .mainbody{
-    background-color: #F5F5F5;
-    margin: 0 160 0 160;
+    background-color: var(--body-color);
+    padding: 0 var(--body-padding) 0 var(--body-padding);
 }
 .title-text{
     color: #0E0E0E;
@@ -53,7 +69,7 @@
 nav{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .nav-title{
     font-weight: bold;
@@ -75,14 +91,13 @@ nav{
 
 /* banner styles */
 .banner{
-    max-width: 1280px;
     height: 560px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #C6E4D6;
     border-radius: 24px;
-    margin: auto;
+    margin-bottom: var(--section-margin);
 }
 .banner-content{
     max-width: 622px;
@@ -111,7 +126,7 @@ nav{
 
 /* vision section */
 .vision{
-    margin: 80px 160px 0 160px;
+    margin: var(--section-margin) 0;
 }
 .vision-card-icon{
     height: 64px;
@@ -120,14 +135,12 @@ nav{
 }
 .card-container{
     display: flex;
-    justify-content: center;
+    gap: 24px;
+    justify-content: space-between;
 }
 .card{
     align-content: center;
-    margin: 24px;
     padding: 24px 24px 24px 24px;
-    height: 244px;
-    width: 302px;
     background-color: white;
     border: 2px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
