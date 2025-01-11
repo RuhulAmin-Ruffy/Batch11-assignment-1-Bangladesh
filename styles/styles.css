@@ -16,6 +16,9 @@
 
 
 /* Shared styles */
+.margin{
+    margin: 0 160 0 160;
+}
 .s-text{
     color: #0E0E0E;
     opacity: 80%;
@@ -24,6 +27,15 @@
     color: #0E0E0E;
     font-size: 16;
     opacity: 70%;
+}
+.btn-primary{
+    background-color: #006A50;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    padding: 17px 34px;
 }
 
 
@@ -35,7 +47,6 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 0 160px 0 160px;
 }
 .nav-title{
     font-weight: bold;
@@ -51,4 +62,38 @@ nav{
     color: #006A50;
     padding: 15px 30px;
     border: 2px solid #006A50;
+}
+
+
+
+/* banner styles */
+.banner{
+    width: 1280px;
+    height: 560px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    margin: auto;
+}
+.banner-content{
+    max-width: 622px;
+    margin: 117px 0 117px 60px;
+}
+.banner-intro{
+    color: #0E0E0E;
+    font-size: 24px;
+    font-weight: 500;
+    opacity: 50%;
+}
+.banner-title{
+    font-size: 56px;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+.banner-img{
+    width: 474px;
+    height: 400px;
+    margin: 80px 60px 80px 64px;
 }
