@@ -1,4 +1,6 @@
-
+*{
+    margin: 0;
+}
 
 :root{
     /* ---------------------------------margins--------------------------------- */
@@ -30,9 +32,11 @@
 
 
 /* Shared styles */
-.mainbody{
+body{
     background-color: var(--body-color);
-    padding: 0 var(--body-padding) 0 var(--body-padding);
+}
+.mainbody{
+padding: 0 var(--body-padding) 0 var(--body-padding);
 }
 .title-text{
     color: #0E0E0E;
@@ -62,11 +66,16 @@
 
 
 
-
+/* header styles */
+/* header{
+    background-color: var(--body-color);
+} */
 
 
   /* Navigation Bar Styling */
+
 nav{
+    padding: 30px 0 0 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -91,6 +100,7 @@ nav{
 
 /* banner styles */
 .banner{
+    margin-top: 40px;
     /* height: 560px; */
     display: flex;
     align-items: center;
@@ -104,12 +114,14 @@ nav{
     margin: 117px 0 117px 60px;
 }
 .banner-intro{
+    padding: 0 0 16px 0;
     color: #0E0E0E;
     font-size: 24px;
     font-weight: 500;
     opacity: 50%;
 }
 .banner-title{
+    padding: 0 0 24px 0;
     font-size: 56px;
     font-weight: 700;
     color: #0E0E0E;
@@ -126,14 +138,18 @@ nav{
 
 /* pillars section */
 .pillars{
-    margin: var(--section-margin) 0;
+    margin: 80px 0;
 }
 .pillars-card-icon{
     height: 64px;
     width: 64px;
     margin-bottom: 24px;
 }
+.pillar-t{
+    margin-bottom: 12px;
+}
 .pillars-card-container{
+    margin-top: 40px;
     display: flex;
     gap: 24px;
     justify-content: space-between;
@@ -150,14 +166,20 @@ nav{
 
 /* Vision of the future styles */
 .vision-card-container{
+    margin-bottom: 80px;
     display: flex;
     justify-content: space-between;
     gap: 24px;
 }
 .vision-p{
-    margin-bottom: 24px;
+    margin: 24px 0 24px 0;
 }
+.p-t{
+    padding: 12px 0 12px 0;
+}
+
 .vision-cards-1{
+    margin-top: 32px;
     align-content: center;
     padding: 32px 32px 32px 32px;
     background-color: rgba(84, 144, 245, 0.2);
@@ -165,6 +187,7 @@ nav{
     border-radius: 16px;
 }
 .vision-btn-1{
+    margin-top: 24px;
     background-color: #5490F5;
     border: none;
     border-radius: 8px;
@@ -175,6 +198,7 @@ nav{
 }
 
 .vision-cards-2{
+    margin-top: 32px;
     align-content: center;
     padding: 32px 32px 32px 32px;
     background-color: #C6E4D6;
@@ -183,6 +207,7 @@ nav{
 }
 
 .vision-btn-2{
+    margin-top: 24px;
     background-color: #09A15C;
     border: none;
     border-radius: 8px;
@@ -193,6 +218,7 @@ nav{
 }
 
 .vision-cards-3{
+    margin-top: 32px;
     align-content: center;
     padding: 32px 32px 32px 32px;
     background-color: #F7EBCF;
@@ -202,6 +228,7 @@ nav{
 
 
 .vision-btn-3{
+    margin-top: 24px;
     background-color: #FFC239;
     border: none;
     border-radius: 8px;
@@ -222,6 +249,9 @@ nav{
     background-color: white;
     border: 2px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
+}
+.dr-yunus{
+    padding: 20px 0 10px 0;
 }
 
 
@@ -360,4 +390,34 @@ input::placeholder{
         color: #0E0E0E;
         font-size: 16px;
         font-weight: normal;
+}
+
+
+/* footer style */
+.footer-container{
+    background-color: white;
+    margin-top: 80px;
+}
+.footer-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+    padding: 50px 0 32px 0;
+}
+.hr-line{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 0 0 32px 0;
+}
+
+.socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 0 0 50px 0;
 }
